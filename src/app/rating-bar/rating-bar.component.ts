@@ -69,6 +69,19 @@ export class RatingBarComponent implements OnInit {
     this.point = value;
     this.click9(value)
   }
+  reset(){
+    this.point = 0;
+    this.color1 = "";
+    this.color2 = "";
+    this.color3 = "";
+    this.color4 = "";
+    this.color5 = "";
+    this.color6 = "";
+    this.color7 = "";
+    this.color8 = "";
+    this.color9 = "";
+    this.color10 = "";
+  }
   constructor() {
   }
 
